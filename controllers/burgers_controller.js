@@ -2,7 +2,6 @@ const burger = require('../models/burger.js');
 const express = require('express');
 const router = express.Router();
 
-
 router.get('/', function (req, res) {
     burger.selectAll(function (data) {
         const hbsObject = {
@@ -45,6 +44,4 @@ router.delete('/api/burgers/:id', function (req, res) {
     });
 });
 
-
-// Export routes for server.js to use.
 module.exports = router;

@@ -1,5 +1,15 @@
 const connection = require('../config/connection.js');
 
+const objToSql = (ob) => {
+  const arr = [];
+
+  for (const key in ob) {
+    arr.push(key + '=' + ob[key]);
+  }
+
+  return arr.toString();
+}
+
 const printQuestionMarks = (num) => {
   const arr = [];
 

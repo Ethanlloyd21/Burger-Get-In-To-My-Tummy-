@@ -3,6 +3,7 @@
 * This application is an example of MVC design pattern that uses MySQL, Node, Express, Handlebars and ORM. The application is deployed on Heroku.
 
 * Structure
+
 ![](public/assets/img/structures.PNG)
 
 

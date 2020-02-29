@@ -1,20 +1,23 @@
+"use strict";
+
 const connection = require('../config/connection.js');
 
-const objToSql = (ob) => {
-  const arr = [];
-
-  for (const key in ob) {
-    arr.push(key + '=' + ob[key]);
-  }
-
-  return arr.toString();
-}
 
 const printQuestionMarks = (num) => {
   const arr = [];
 
   for (let i = 0; i < num; i++) {
     arr.push('?');
+  }
+
+  return arr.toString();
+}
+
+const objToSql = (ob) => {
+  const arr = [];
+
+  for (const key in ob) {
+    arr.push(key + '=' + ob[key]);
   }
 
   return arr.toString();

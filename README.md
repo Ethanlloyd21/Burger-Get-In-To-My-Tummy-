@@ -12,6 +12,9 @@
 * npm i mysql
 * npm i express-handlebars
 
+## Run
+* node server.js
+
 
 
 ## Dependencies
@@ -39,5 +42,8 @@ The application is deployed on Heroku.
 ![](public/assets/img/sample.PNG)
 * <a href="https://drive.google.com/file/d/1QDFTxSZKRT_CgPKiHWf9YxPdY7JvBeVK/view"> Click here for a video demo </a>
 
+## License
+see The MIT License (MIT)
+
 ## Author 
-* Lloyd Marcelino, 2020
+* Lloyd Marcelino, 02/29/2020

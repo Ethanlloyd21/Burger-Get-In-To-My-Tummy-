@@ -44,7 +44,6 @@
 * jQuery
 
 
-
 ## Deployment
 The application is deployed on Heroku.
 * https://enigmatic-temple-71661.herokuapp.com/

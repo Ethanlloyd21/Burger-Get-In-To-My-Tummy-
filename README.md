@@ -1,5 +1,18 @@
 # Burger-Get-In-To-My-Tummy-
 
+## Table of contents
+* [About](##About)
+* [Installation](##Installation)
+* [Run](##Run)
+* [Dependencies](##Dependencies)
+* [Technologies](##Technologies)
+* [Deployement](##Deployment)
+* [Demo](##Demo)
+* [License](##License)
+* [Author](##Author)
+
+## About
+
 * This application is an example of MVC design pattern that uses MySQL, Node, Express, Handlebars and ORM (CRUD - create, post, update, delete). 
 
 * Structure
